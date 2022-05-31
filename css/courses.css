@@ -1,0 +1,307 @@
+.dashboard__head{
+    display: grid;
+    grid-template-columns: 2fr 1.6fr;
+    align-items: center;
+
+}
+.dashboard__search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.search_box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  
+    
+}
+.search_box i{
+    padding-right: 1rem;
+   
+}
+.icon i{
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.search_box input{
+    outline: none;
+    background-color: white;
+    border: none;
+}
+.courses__title{
+    padding-bottom: 1rem;
+}
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+.courses__card{
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 1rem;
+    
+}
+.courses__photo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+
+}
+ .courses__photo--back{
+    background-color: var(--orange_color);
+    border-radius: 1rem;
+
+}
+.courses__photo img{
+    border-radius: 1rem;
+    
+    
+   
+}
+.courses__next{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.courses__next--photo{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+.courses__next--photo img{
+    border-radius: 50%;
+    margin: -0.3rem;
+}
+.courses__next--photo img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  
+
+}
+
+
+.card1{
+    background-color: var(--orangelight_color);
+    
+
+}
+.card2{
+    background-color: var(--backgrond_color);
+}
+.card3{
+    background-color: var(--bluelight_color);
+}
+.courses__photo p{
+    font-weight: 800;
+}
+span{
+    color: #acacac;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.courses__next--icon i{
+   
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+  
+}
+.courses__next--icon>i:hover{
+    background-color: var(--primary_color);
+    color: var(--body_color);
+
+}
+
+
+.card1.courses__next--icon i{
+    background-color: var(--orange_color);
+
+}
+.card2 .courses__next .courses__next--icon i{
+    background-color: var(--primary_color);
+}
+.card3 .courses__next .courses__next--icon i{
+    background-color: var(--blue_color);
+}
+
+.card2 .courses__photo .courses__photo--back{
+    background-color: var(--primary_color);
+}
+.card3 .courses__photo .courses__photo--back{
+    background-color: var(--blue_color);
+}
+.mycourse__main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.over{
+    
+
+}
+
+.mycourse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    text-align: center;  
+}
+.mycourses__top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-right: 2rem;
+
+}
+.mycourses__item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    overflow-y: scroll;
+    padding-right: 2rem;
+    height: 25rem;
+    
+}
+
+
+.courses__detailes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 400;
+    align-items: center;
+  
+}
+.title{
+    color: #acacac;
+}
+.course__name{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    align-content: center;
+   
+    line-height: 2.5rem;
+    
+}
+.course__name p{
+    
+}
+.course__name i{
+    padding: 1.5rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;   
+    background-color: var(--backgrond_color);
+    color: var(--primary_color);
+}
+
+
+
+.homework__section{
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}    
+.homework__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--backgrond_color);
+    
+    
+}   
+.homework__item{
+    background-color: white;
+    color: var(--body_color);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+    align-items: center;
+    line-height: 2rem;
+    
+    
+} 
+.homework__item:hover{
+    background-color: var(--primary_color);
+    color: var(--backgrond_color);
+   
+}
+.progressbars--item{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.progressbar--text{
+    padding-left: 1rem;
+}
+
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+  }
+  
+  @property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+  }
+  
+  div[role="progressbar"] {
+    --size: 6rem;
+    --fg: var(--blue_color) ;
+    --bg: #def;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+  
+ 

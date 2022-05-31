@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Urbanist", "roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    
+
+ }
+
+  
+
+body{
+    font-size: 1.5rem;
+    font-family:"Lato", "Roboto", sans-serif;
+    background-color: var(--primary_color);
+    color: var(--body_color);
+
+}
+
+
+:root{
+    --backgrond_color: #e9e3ff;
+    --primary_color: #8A70D6;
+    --blue_color : #579BE4;
+    --bluelight_color: #E5F3FE;
+    --orange_color :#FCAB5E;
+    --orangelight_color : #FFF0E1;
+    --body_color:#424040;
+
+}
+.container{
+    padding: 0 0px;
+    width: 90%;
+    max-width: 1500px;
+    height: auto;
+    margin: 0 auto;
+}
+.btn{
+    background-color: var(--primary_color);
+    outline: none;
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    color: var(--backgrond_color);
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: translateY(2px) translateX(2px);
+    transition: transform 200ms; 
+    background-image: radial-gradient(  var(--primary_color) , var(--blue_color) );
+}
+   

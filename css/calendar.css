@@ -1,0 +1,58 @@
+/* width */
+::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;  
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    height: 0.5rem;
+  }
+
+  
+
+.calendar__section{
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.table{
+    
+    line-height: 3rem;
+
+    
+}
+#calendar-body{
+    
+  line-height: 2rem;
+    text-align: center;
+}
+tr th {
+    padding: 1rem;
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn-outline-primary{
+    background-color: none;
+    padding: 0.7rem 1rem 
+
+}
