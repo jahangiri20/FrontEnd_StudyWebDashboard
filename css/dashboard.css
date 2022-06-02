@@ -54,6 +54,10 @@
     color: var(--primary_color);
     font-size: 2rem;
 }
+.item i:hover{
+    transform: rotateX(2);
+
+}
 .profile__title{
     display: flex;
     flex-direction: row;
