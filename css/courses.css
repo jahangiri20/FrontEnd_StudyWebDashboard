@@ -178,9 +178,9 @@ span{
     overflow-y: scroll;
     padding-right: 2rem;
     height: 33rem;
+   cursor: pointer;
     
 }
-
 
 .courses__detailes{
     display: flex;
