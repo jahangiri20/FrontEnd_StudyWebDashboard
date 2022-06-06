@@ -86,12 +86,22 @@
  
     object-fit: contain;
 }
+.profile__photo img:hover{ 
+    border-radius: 20%;
+    transition: all 5ms;
+}
 .profile__icon i{
     border-radius: 0.5rem;
     padding: 0.8rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     cursor: pointer;
     background-color: white;
+}
+.profile__icon i:hover{
+    transform: rotate(90deg);
+    transition: all 8ms;
+    color: var(--primary_color);
+   
 }
  .col1__sub{
      background-color: var(--backgrond_color);

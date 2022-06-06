@@ -37,7 +37,6 @@ function showCalendar(month, year) {
 
     // clearing all previous cells
     tbl.innerHTML = "";
-
     // filing data about month and in the page via DOM.
     monthAndYear.innerHTML = months[month] + " " + year;
     selectYear.value = year;
@@ -71,10 +70,7 @@ function showCalendar(month, year) {
                 row.appendChild(cell);
                 date++;
             }
-
-
         }
-
         tbl.appendChild(row); // appending each row into calendar body.
     }
 
